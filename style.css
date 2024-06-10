@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.number-of-squares {
+  margin: 1rem 0;
+  button {
+    border: none;
+    background-color: cadetblue;
+    color: azure;
+    font-weight: bold;
+    padding: 0.2rem 1rem;
+    border-radius: 0.4rem;
+  }
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  width: 60rem;
+  height: 60rem;
+  border: 3px solid cadetblue;
+}
+
+.row {
+  display: flex;
+  flex-grow: 1;
+}
+
+.square {
+  flex-grow: 1;
+  border: 1px solid crimson;
+}
